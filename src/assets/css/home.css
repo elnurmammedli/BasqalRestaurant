@@ -1,0 +1,603 @@
+/* ! header Start */
+.header-div{
+    width: 100%;
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+    url(https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-1273516682.jpg?c=16x9&q=h_833,w_1480,c_fill);
+    height: 700px;
+}
+
+.head-bar{
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.basqal-logo{
+    width: 350px;
+    height: 300px;
+    margin-top: 100px;
+}
+.list-menu{
+ list-style: none;
+ cursor: pointer;
+ display: flex;
+
+}
+.list-item{
+    list-style: none;
+    color:white ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-right: 30px;
+    transition: 0.7s;
+}
+.list-item:hover{
+    color: red;
+}
+.link-item{
+    text-decoration: none;
+    color:white ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-right: 10px;
+    transition: 0.7s;
+}
+.link-item:hover{
+    color: red;
+}
+.link-btn{
+    color:white ;
+    text-decoration: none;
+}
+.head-info{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.writings{
+    width: 600px;
+    height: 500px;
+    /* background-color: red; */
+}
+.header-one{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 230px;
+    margin-left: 20px;
+    font-size: 45px;
+}
+.paragraf-one{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-left: 20px;
+
+}
+.start-btn{
+    width: 200px;
+    height: 50px;
+    margin-left: 130px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: rgb(254,161,21);
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: 0.7s;
+    border: none;
+}
+.start-btn:hover{
+    display: block;
+    filter: drop-shadow(0 0 20px red);
+    background-color: red;
+}
+.rotating {
+    animation: spin 20s linear infinite;
+    width: 440px; 
+    height: 440px;
+    margin-right: 100px;
+    margin-top: 50px;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+/* ! header End */
+
+/* ! Div One Start */
+.about-div{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Todo Team start */
+.team{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+.team:hover{
+    transform: translateY(-10px);
+    box-shadow: 10px 10px rgb(254,170,54);
+}
+.team-icon{
+    font-size: 60px;
+    color:rgb(254,170,54) ;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.team-header{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+
+}
+.team-paraqraf{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+/*Todo Team  End */
+
+/* Todo Quality Food start */
+.qualityfood{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+.qualityfood:hover{
+    transform: translateY(-10px);
+    box-shadow: 10px 10px rgb(254,170,54);
+}
+.food-icon{
+    font-size: 60px;
+    color:rgb(254,170,54) ;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.food-header{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+.food-paraqraf{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+/* Todo Quality Food End */
+
+/* Todo Banket  start */
+.hall{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+.hall:hover{
+    transform: translateY(-10px);
+    box-shadow: 10px 10px rgb(254,170,54);
+}
+.hall-icon{
+    font-size: 60px;
+    color: rgb(254,170,54) ;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.hall-header{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+.hall-paraqraf{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+/* Todo BAnket zali End */
+
+/* Todo Hotel Start*/
+.hotel{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+.hotel:hover{
+    transform: translateY(-10px);
+    box-shadow: 10px 10px rgb(254,170,54);
+}
+.hotel-icon{
+    font-size: 60px;
+    color:rgb(254,170,54) ;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.hotel-header{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+.hotel-paraqraf{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+/* Todo Hotel End*/
+
+/* Todo 24/7 Service Start*/
+.opentoeveryone{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+.opentoeveryone:hover{
+    transform: translateY(-10px);
+    box-shadow: 10px 10px rgb(254,170,54);
+}
+.open-icon{
+    font-size: 60px;
+    color:rgb(254,170,54) ;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.open-header{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+.open-paraqraf{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+/* Todo 24/7 Service End*/
+/* ! Div One End */
+
+/* ! Div Two start */
+.aboutus-div{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+}
+.aboutus-image{
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+.image-one{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 115px;
+    left: 115px;
+}
+.image-two{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 165px;
+    left: 330px;
+}
+.image-three{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 330px;
+    left: 165px;
+
+}
+.image-four{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 330px;
+    left: 330px;
+}
+.aboutus-text{
+    width: 50%;
+    height: 100%;
+}
+.us{
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+    color: rgb(254,170,54) ;
+    margin-top: 200px;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+.welcome{
+    width: 320px;
+    height: 100px;
+    /* background-color: red; */
+    position: relative;
+}
+.welcome h1{
+    color: rgb(254,170,54);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.welcome img{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    bottom: 0px;
+    left: 190px;
+}
+.aboutus-text h3{
+    font-family: Arial, Helvetica, sans-serif;
+}.aboutus-numbers{
+    width: 400px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+}
+.aboutus-numbers h1{
+    color: rgb(254,170,54);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+.line{
+    color: rgb(254,170,54);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-left: 100px;
+}
+.aboutus-numbers h2{
+    color: rgb(254,170,54);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 8px;
+    margin-left: 8px;
+    font-size: 40px;
+}
+.aboutus-numbers h3{
+    color: rgb(254,170,54);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-left: 8px;
+    font-size: 20px;
+}
+.aboutus-text button{
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: rgb(254,161,21);
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: 0.7s;
+    border: none;
+}
+.aboutus-text button:hover{
+    display: block;
+    filter: drop-shadow(0 0 20px red);
+    background-color: red;
+}
+/* ! Div Two End */
+
+
+/* ! Div three start */
+.referans{
+    width: 100%;
+    height: 500px;
+    /* background-color: red; */
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+        align-items: center;
+}
+.referans-text{
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+    color: rgb(254,170,54) ;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+.referans-text-two{
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+.referans-comment-div{
+    width: 100%;
+    height: 400px;
+    /* background-color: blue; */
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 30px;
+}
+
+
+.Clients-comment{
+    width: 450px;
+    height:200px ;
+    /* background-color: aqua; */
+    border: 2px solid orange;
+}
+.Clients-comment h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-left: 30px;
+
+}
+.clients{
+    width: 100%;
+    height: 80px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+   margin-top: 30px;
+}
+.clients h4{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+.foto{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+/* ! Div three End */
+
+/* ! Footer Start*/
+.foot-bar{
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(15,23,43);
+}
+.div-bars{
+    width: 100%;
+    height: 300px;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+/* ! Div 1 Start */
+.div{
+    width: 350px;
+    height:300px;
+    background-color: red;
+    margin-left:30px ;
+}
+.div h1{
+    font-family: "Pacifico", cursive;
+    color: rgb(254,170,54);
+}
+.div div{
+    width: 130px;
+    height: 30px;
+    /* background-color: blue; */
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.div div h3{
+   margin-top: 3px;
+   color: white;
+   cursor: pointer;
+}
+.div div h3:hover{
+    transform: scale(1.1);
+    transition: 0.7s;   
+}
+.line-icon{
+    margin-top: 6px;
+    color: white;
+}
+/* ! Div 1 End */
+
+/* ! Div 2 Start */
+.div2{
+    width: 350px;
+    height:300px;
+    background-color: red;
+}
+.div2 h1{
+    font-family: "Pacifico", cursive;
+    color: rgb(254,170,54);
+}
+.div2 div{
+    width: 350px;
+    height: 50px;
+    /* background-color: blue; */
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.div2 div h3{
+    margin-top: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+ }
+.icon-sosial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    margin-left: 10px;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+.icon-sosial:hover{
+    transform: scale(1.1);
+    background-color: white;
+    color: rgb(254,170,54);
+}
+/* ! Div 2 ENd */
+
+/* ! Div 3 Start */
+.div3{
+    width: 350px;
+    height:300px;
+    background-color: red;
+}
+.div3 h1{
+    font-family: "Pacifico", cursive;
+    color: rgb(254,170,54);
+}
+.div3 div{
+    width: 350px;
+    height: 30px;
+    /* background-color: blue; */
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.div3 div h3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-top: 6px;
+ }
+.div3 div h4{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    
+ }
+
+/* ! Div 3 ENd */
+
+
+
+
+
+
+
+
+.coder{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+.coder2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+}
+/* ! Footer End*/
